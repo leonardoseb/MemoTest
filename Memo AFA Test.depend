@@ -1,0 +1,425 @@
+# depslib dependency file v1.0
+1402523912 source:c:\documents and settings\juan cruz arzua\escritorio\memo afa test\main.cpp
+	"adn++_4.1.4/adn++.h"
+	"clases/clsMotorPrograma.h"
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\adn++.h
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<iostream>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"videoTypes.h"
+	"mouseTypes.h"
+	"keyboardTypes.h"
+	"colorTypes.h"
+	"spriteTypes.h"
+	"textTypes.h"
+	"clsLog.h"
+	"clsError.h"
+	"clsGraphicMode.h"
+	"clsEvent.h"
+	"clsSystem.h"
+	"clsBasicScreen.h"
+	"clsScreen.h"
+	"clsVirtualScreen.h"
+	"clsDot.h"
+	"clsRectangle.h"
+	"clsImage.h"
+	"clsBasicSprite.h"
+	"clsMovilSprite.h"
+	"clsContactSprite.h"
+	"clsText.h"
+	"clsTimer.h"
+	"clsRandom.h"
+	"clsTextBox.h"
+	"clsEngine.h"
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\videotypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\mousetypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\keyboardtypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\colortypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\spritetypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\texttypes.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clslog.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clserror.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsgraphicmode.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsevent.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clssystem.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsbasicscreen.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsscreen.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsvirtualscreen.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsdot.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsrectangle.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsimage.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsbasicsprite.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsmovilsprite.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clscontactsprite.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clstext.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clstimer.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsrandom.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clstextbox.h
+
+1394058078 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\adn++_4.1.4\clsengine.h
+
+1404100429 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\clases\clsmotorprograma.h
+	"clsFondo.h"
+	"clsTablero.h"
+
+1402526528 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\clases\clsfondo.h
+
+1404099987 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\clases\clstablero.h
+	"clsFondo.h"
+	"clsFicha.h"
+
+1404090701 c:\documents and settings\juan cruz arzua\escritorio\memo afa test\clases\clsficha.h
+
+1402523912 source:c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\main.cpp
+	"adn++_4.1.4/adn++.h"
+	"clases/clsMotorPrograma.h"
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\adn++.h
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<iostream>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"videoTypes.h"
+	"mouseTypes.h"
+	"keyboardTypes.h"
+	"colorTypes.h"
+	"spriteTypes.h"
+	"textTypes.h"
+	"clsLog.h"
+	"clsError.h"
+	"clsGraphicMode.h"
+	"clsEvent.h"
+	"clsSystem.h"
+	"clsBasicScreen.h"
+	"clsScreen.h"
+	"clsVirtualScreen.h"
+	"clsDot.h"
+	"clsRectangle.h"
+	"clsImage.h"
+	"clsBasicSprite.h"
+	"clsMovilSprite.h"
+	"clsContactSprite.h"
+	"clsText.h"
+	"clsTimer.h"
+	"clsRandom.h"
+	"clsTextBox.h"
+	"clsEngine.h"
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\videotypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\mousetypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\keyboardtypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\colortypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\spritetypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\texttypes.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clslog.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clserror.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsgraphicmode.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsevent.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clssystem.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicscreen.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsscreen.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsvirtualscreen.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsdot.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrectangle.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsimage.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicsprite.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsmovilsprite.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clscontactsprite.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clstext.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clstimer.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrandom.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clstextbox.h
+
+1394058078 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\adn++_4.1.4\clsengine.h
+
+1404100429 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\clases\clsmotorprograma.h
+	"clsFondo.h"
+	"clsTablero.h"
+
+1402526528 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\clases\clsfondo.h
+
+1404768060 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\clases\clstablero.h
+	"clsFondo.h"
+	"clsFicha.h"
+
+1404090701 c:\users\leonardo\desktop\memo afa test x9\memo afa test x9\clases\clsficha.h
+
+1402523912 source:c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\main.cpp
+	"adn++_4.1.4/adn++.h"
+	"clases/clsMotorPrograma.h"
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\adn++.h
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<iostream>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"videoTypes.h"
+	"mouseTypes.h"
+	"keyboardTypes.h"
+	"colorTypes.h"
+	"spriteTypes.h"
+	"textTypes.h"
+	"clsLog.h"
+	"clsError.h"
+	"clsGraphicMode.h"
+	"clsEvent.h"
+	"clsSystem.h"
+	"clsBasicScreen.h"
+	"clsScreen.h"
+	"clsVirtualScreen.h"
+	"clsDot.h"
+	"clsRectangle.h"
+	"clsImage.h"
+	"clsBasicSprite.h"
+	"clsMovilSprite.h"
+	"clsContactSprite.h"
+	"clsText.h"
+	"clsTimer.h"
+	"clsRandom.h"
+	"clsTextBox.h"
+	"clsEngine.h"
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\videotypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\mousetypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\keyboardtypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\colortypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\spritetypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\texttypes.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clslog.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clserror.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsgraphicmode.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsevent.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clssystem.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicscreen.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsscreen.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsvirtualscreen.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsdot.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrectangle.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsimage.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicsprite.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsmovilsprite.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clscontactsprite.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstext.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstimer.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrandom.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstextbox.h
+
+1394058078 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsengine.h
+
+1404100429 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsmotorprograma.h
+	"clsFondo.h"
+	"clsTablero.h"
+
+1402526528 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsfondo.h
+
+1404768060 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clstablero.h
+	"clsFondo.h"
+	"clsFicha.h"
+
+1404090701 c:\users\leonardo\desktop\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsficha.h
+
+1402523912 source:c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\main.cpp
+	"adn++_4.1.4/adn++.h"
+	"clases/clsMotorPrograma.h"
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\adn++.h
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<iostream>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"videoTypes.h"
+	"mouseTypes.h"
+	"keyboardTypes.h"
+	"colorTypes.h"
+	"spriteTypes.h"
+	"textTypes.h"
+	"clsLog.h"
+	"clsError.h"
+	"clsGraphicMode.h"
+	"clsEvent.h"
+	"clsSystem.h"
+	"clsBasicScreen.h"
+	"clsScreen.h"
+	"clsVirtualScreen.h"
+	"clsDot.h"
+	"clsRectangle.h"
+	"clsImage.h"
+	"clsBasicSprite.h"
+	"clsMovilSprite.h"
+	"clsContactSprite.h"
+	"clsText.h"
+	"clsTimer.h"
+	"clsRandom.h"
+	"clsTextBox.h"
+	"clsEngine.h"
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\videotypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\mousetypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\keyboardtypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\colortypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\spritetypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\texttypes.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clslog.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clserror.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsgraphicmode.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsevent.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clssystem.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicscreen.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsscreen.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsvirtualscreen.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsdot.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrectangle.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsimage.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsbasicsprite.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsmovilsprite.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clscontactsprite.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstext.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstimer.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsrandom.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clstextbox.h
+
+1394058078 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\adn++_4.1.4\clsengine.h
+
+1404100429 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsmotorprograma.h
+	"clsFondo.h"
+	"clsTablero.h"
+
+1402526528 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsfondo.h
+
+1404768060 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clstablero.h
+	"clsFondo.h"
+	"clsFicha.h"
+
+1404090701 c:\users\leonardo\desktop\backup\utn\programacion ii\memo afa test x9\memo afa test x9\clases\clsficha.h
+

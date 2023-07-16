@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Memo AFA Test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[##############################################
+
+ AVIS SOFTWARE   
+(Productos de Software Libre)           
+  
+adn++ (Sistma de clases para el modo gráfico en C++)
+              v 4.1.4 estable   -  25/10/2012    
+
+AUTOR: Ruben Alberto Calabuig.
+##############################################
+      EL SOFTWARE LIBRE NO ES UNA CUESTIÓN ECONÓMICA 
+                                  SINO UNA CUESTIÓN ÉTICA
+***************************************************
+Avis Software es marca registrada.
+
+Este programa es software libre; puede redistribuirlo o modificarlo bajo
+los términos de la Licencia Publica General de GNU tal como se pública 
+por la Free Software Foundation; ya sea la versión 3 de la Licencia, o (a 
+su elección) cualquier versión posterior.
+ 
+Este programa se distribuye con la esperanza de que le sea util, pero 
+SIN NINGUNA GARANTIA; sin incluso la garantía implícita de 
+MERCANTILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR.
+
+Vea la Licencia Pública General GNU para más detalles.
+
+Debería haber recibido una copia de la Licencia Pública General de GNU 
+junto con este programa, si no es así, escriba a la Free Software 
+Foundation, Inc, 59 Temple Place - Suite 330, Boston, MA 02111-1307, 
+EE.UU.
+==============================================
+¿Qué es Avis adn++?
+
+Avis adn++ es un sistema de librerías de clases desarrolladas en C++, y
+basadas en las SDL de Sam Lantinga.
+
+El objetivo de adn++, es introducir a los alumnos en la OOP 
+(programación orientada a objeto).
+
+Avis adn++ es un producto registrado de Avis SOFTWARE.
+##############################################
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="Memo AFA Test" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL_ttf" />
+					<Add option="-lSDL_image" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="./Memo AFA Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+		</Linker>
+		<Unit filename="adn++_4.1.4/LICENCIA GPL/Licencia GPL (traduccion NO OFICIAL - castellano argentina).txt" />
+		<Unit filename="adn++_4.1.4/LICENCIA GPL/Licencia GPL original (ingles).txt" />
+		<Unit filename="adn++_4.1.4/NOVEDADES DE VERSION/adn++ 4.1.4 estable - Novedades de version.txt" />
+		<Unit filename="adn++_4.1.4/adn++.h" />
+		<Unit filename="adn++_4.1.4/clsBasicScreen.h" />
+		<Unit filename="adn++_4.1.4/clsBasicSprite.h" />
+		<Unit filename="adn++_4.1.4/clsContactSprite.h" />
+		<Unit filename="adn++_4.1.4/clsDot.h" />
+		<Unit filename="adn++_4.1.4/clsEngine.h" />
+		<Unit filename="adn++_4.1.4/clsError.h" />
+		<Unit filename="adn++_4.1.4/clsEvent.h" />
+		<Unit filename="adn++_4.1.4/clsGraphicMode.h" />
+		<Unit filename="adn++_4.1.4/clsImage.h" />
+		<Unit filename="adn++_4.1.4/clsLog.h" />
+		<Unit filename="adn++_4.1.4/clsMovilSprite.h" />
+		<Unit filename="adn++_4.1.4/clsRandom.h" />
+		<Unit filename="adn++_4.1.4/clsRectangle.h" />
+		<Unit filename="adn++_4.1.4/clsScreen.h" />
+		<Unit filename="adn++_4.1.4/clsSystem.h" />
+		<Unit filename="adn++_4.1.4/clsText.h" />
+		<Unit filename="adn++_4.1.4/clsTextBox.h" />
+		<Unit filename="adn++_4.1.4/clsTimer.h" />
+		<Unit filename="adn++_4.1.4/clsVirtualScreen.h" />
+		<Unit filename="adn++_4.1.4/colorTypes.h" />
+		<Unit filename="adn++_4.1.4/keyboardTypes.h" />
+		<Unit filename="adn++_4.1.4/mouseTypes.h" />
+		<Unit filename="adn++_4.1.4/spriteTypes.h" />
+		<Unit filename="adn++_4.1.4/textTypes.h" />
+		<Unit filename="adn++_4.1.4/videoTypes.h" />
+		<Unit filename="clases/clsFicha.h" />
+		<Unit filename="clases/clsFondo.h" />
+		<Unit filename="clases/clsMotorPrograma.h" />
+		<Unit filename="clases/clsTablero.h" />
+		<Unit filename="imagenes/Frente01.png" />
+		<Unit filename="imagenes/fondo.jpg" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

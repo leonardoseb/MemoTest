@@ -1,0 +1,299 @@
+*********************************************************************************
+*                   adn++ 4.1.4 estable - NOVEDADES DE VERSION                  *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 25/10/2012    *
+*********************************************************************************
+*                                                                               *
+* En esta version se presentan los siguientes cambios:                          *
+*                                                                               *
+* 1) Ha sido modificada la clase clsTextBox para que pueda ser utilizada con nu-*
+*    meros negativos.                                                           *
+*                                                                               *
+* 2) Se ha corregido la clase clsTextBox evitando que de error cuando se ingresa*
+*    una cadena vacia.                                                          *
+*                                                                               *
+* NOTA: Todas estas mejoras han sido realizadas por Agustin Miranda, (actualmen-*
+*       te alumno de la materia LABORATORIO II perteneciente a la carrera de    *
+*       Tecnico Superior en Programacion de la UTN - FRGP - Anexo Jose C. Paz.  *
+*                                                                               *
+*********************************************************************************
+*                   adn++ 4.1.3 estable - NOVEDADES DE VERSION                  *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 18/10/2012    *
+*********************************************************************************
+*                                                                               *
+* En esta version se presentan los siguientes cambios:                          *
+*                                                                               *
+* Las clases clsBaseScreen y clsBaseSprite, pasan a llamarse clsBasicScreen y   *
+* clsBasicSprite respectivamente.                                               *
+*                                                                               *
+* La clase clsBasicSprite cambia la variable "total" y sus métodos "get" y "set"*
+* por "items" y sus correspondientes "get" y "set".                             *
+*                                                                               *
+* Se han agregado dos metodos a la clase clsBasicSprite (setState y getState)   *
+* que establecen y devuelven el estado del sprite respectivamente.              *
+*                                                                               *
+* Los estados posibles, que han sido definidos en el archivo spriteTypes.h, son *
+* los siguientes:                                                               *
+*                 enum tSpriteState {INACTIVE,ACTIVE};                          *
+*                                                                               *
+* Se corrigieron errores de la clase clsContactSprite, agregando un constructor *
+* y un destructor por defecto.                                                  *
+*                                                                               *
+* Se agrego un constructor a la clase clsError.                                 *
+*                                                                               *
+* Se agrego el metodo manage() a la clase clsError, que permite administrar los *
+* errores de una forma que reduce el codigo de los programas, haciendo que su   *
+* lectura sea mas clara.                                                        *
+*                                                                               *
+* Se modifico el metodo init() de la clase clsRandom para darle compatibilidad  *
+* multiplataforma.                                                              *
+*                                                                               *
+*********************************************************************************
+*                   adn++ 4.1.2 estable - NOVEDADES DE VERSION                  *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 29/09/2012    *
+*********************************************************************************
+*                                                                               *
+* En esta version desaparece el archivo de encabezados adnheaders.h, y cada uno *
+* de los tipos definidos en el, han sido agrupados en segun las clases con las  *
+* que estan relacionados, y definidos en archivos independientes, que se listan *
+* a continuacion:                                                               *
+*                 videoTypes.h    --> modo video y pantalla.                    *
+*                 mouseTypes.h    --> mouse.                                    *
+*                 keyboardTypes.h --> teclado.                                  *
+*                 colorTypes.h    --> colores.                                  *
+*                 spriteTypes.h   --> sprites.                                  *
+*                 textTypes.h     --> textos.                                   *
+*                                                                               *
+* Todas esta librerías se incluyen en el cuerpo del archivo adn++.h             *
+*                                                                               *
+*********************************************************************************
+*                   adn++ 4.1.1 estable - NOVEDADES DE VERSION                  *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 25/09/2012    *
+*********************************************************************************
+*                                                                               *
+* En esta version se ha modificado el sistema de constantes relacionadas con    *
+* el codigo ASCII de las teclas.                                                *
+*                                                                               *
+* Esta modificacion motivo cambios en el metodo getKey() de la clase clsEvent.  *
+*                                                                               *
+* Los cambios en la clase clsEvent, por ser esta una clase basica utilizada en  *
+* la mayoria de los proyectos adn++, provoco un efecto domino en las demas cla- *
+* ses del sistema.                                                              *
+*                                                                               *
+* Por ese motivo, tambien han sido modificadas las clases clsTextBox y clsTimer.*
+*                                                                               *
+* A pesar de estos cambios, el sistema en general sigue siendo muy compatible   *
+* con la version anterior (4.1.0) por lo que el salto es minimo quedando como   *
+* version actual la 4.1.1.                                                      *
+*                                                                               *
+*********************************************************************************
+*                   adn++ 4.1.0 estable - NOVEDADES DE VERSION                  *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 15/07/2012    *
+*********************************************************************************
+*                                                                               *
+* Esta versión da un salto cualitativo en el manejo de los sprites.             *
+*                                                                               *
+* Continuando con la numeración correlativa a los cambios de versiones anterio- *
+* res, detallamos la novedad:                                                   *
+*                                                                               *
+* 24) La clase clsContactSrite ha modificado sus métodos, aceptando como pará-  *
+*     metro no sólo a otro objeto de la clase, sino a cualquier objeto derivado *
+*     de la clase clsBaseSprite.                                                *
+*                                                                               *
+*     NOTA: este es un cambio flexibiliza ampliamente  el contacto  entre  los  *
+*           sprites, que son con frecuencia los protagonistas de los proyectos  *
+*           adn++. Por ese motivo, el sistema adn++ experimenta un cambio de    *
+*           versión del orden de los 2 dígitos (de 4.0x a 4.1x).                *
+*                                                                               *
+*                                                                               *
+*********************************************************************************
+*                         adn++ 4.0.2 NOVEDADES DE VERSION                      *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 14/07/2012    *
+*********************************************************************************
+*                                                                               *
+* Esta versión, de la misma manera que las versiones anteriores, introduce modi-*
+* ficaciones importantes que agregan, mejoran o reemplazan elementos del siste- *
+* ma. Para tomar un punto de partida en las descripciones de estos cambios, se  *
+* establece un orden numérico correlativo a partir de la versión 4.01 que se a- *
+* grega al final de este documento. A continuación se detallan los cambios de   *
+* la versión 4.02 estable.                                                      *
+*                                                                               *
+* 20) En la clase clsEvento se cambiaron los nombres de los métodos getMouseX() *
+*     y getMouseY() por getCursorX() y getCursorY() respectivamente. Este cam-  *
+*     bio se debe a que se considera más apropiado referirese al puntero en for-*
+*     individual que al mouse en todo su conjunto.                              *
+*                                                                               *
+*                                                                               *
+* 21) En las clases clsBaseScreen, clsBaseSprite, clsContactSprite, clsEngine,  *
+*     clsGraphicMode, clsMovilSprite, clsRectangle, clsScreen, clsVirtualScreen,*
+*     clsText y clsTextBox, se han hecho correcciones de traducción en los ele- *
+*     mentos relacionados con el ancho (widht), el alto (height) y la profundi- *
+*     dad (depth).                                                              *
+*                                                                               *
+*                                                                               *
+* 22) En la clase clsBaseScreen se agregaron los métodos getColor() y setColor()*
+*                                                                               *
+*                                                                               *
+* 23) En la clase clsBaseSprite se eliminó el método setTotal() debido a que    *
+*     cumple la misma función que setItems(), y se sobrecargó el método getPtr()*
+*     como clsImage* getPtr(int) para poder devolver una imagen específica en   *
+*     lugar del inicio del vector.                                              *
+*                                                                               *
+*     Nota: la sobrecarga de getPtr(int) aún está en fase beta.                 *
+*                                                                               *
+*                                                                               *
+*                                                                               *
+*********************************************************************************
+*                         adn++ 4.0.1 NOVEDADES DE VERSION                      *
+*      Edición: Don Torcuato - Tigre - Buenos Aires - Argentina - 22/06/2012    *
+*********************************************************************************
+*                                                                               *
+* Esta versión introduce modificaciones profundas al sistema adn++.             *
+*                                                                               *
+* Entre las más importantes, encontramos las siguientes:                        *
+*                                                                               *
+* 01) Ha sido probada en los sistemas operativos Linux y Windows (XP y 7).      *
+*                                                                               *
+*                                                                               *
+* 02) Ha sido compilada en Code::Blocks versiones 8.02 y 10.05.                 *
+*                                                                               *
+*                                                                               *
+* 03) El archivo principal "main.cpp" incorpora la posibilidad de seleccionar   *
+*     la plataforma de compilación (Linux o Windows).                           *
+*                                                                               *
+*                                                                               *
+* 04) Presentación del sistema como una plantilla que incorpora en forma auto-  *
+*     mática los elementos básicos necesarios para el inicio de un proyecto     *
+*     adn++.                                                                    *
+*                                                                               *
+*     Para incorporar la plantilla de proyecto a nuestro IDE, sólo es necesario *
+*     copiar la carpeta "adn++ 4.01 project" a la carpeta "UserTemplates" de    *
+*     Code::Blocks.                                                             *
+*                                                                               *
+*                                                                               *
+* 05) Se ha cambido el nombre de la variable de entorno de adn++.h _ADN_++_H    *
+*     por _ADN_PP_H_ para dar compatibilidad con la nueva versión de            *
+*     Code::Blocks (10.05).                                                     *
+*                                                                               *
+*                                                                               *
+* 06) Las definiciones del archivo de cabeceras "adnheaders.h" fueron traducidas*
+*     al inǵlés, para mantener la coherencia con el resto del sistema adn++.    *
+*                                                                               *
+*     Además se han hecho modificaciones o incorporaciones que son las          *
+*     siguientes:                                                               *
+*                                                                               *
+*                                                                               *
+*     06.01) Incorpora una constante que contiene el path del directorio donde  *
+*            se encuentran las librerias adn++ dentro del proyecto.             *
+*                                                                               *
+*            const char VERSION_FOLDER[]="./adn++_4.01/";                       *
+*                                                                               *
+*            Esta constante será modificada en consonacia con las nuevas        *
+*            versiones.                                                         *
+*                                                                               *
+*     06.02) Incorpora una enumeración utilizada en la autodetección de la      *
+*            resolución de video.                                               *
+*                                                                               *
+*            enum graphicVideoMode                                              *
+*            {                                                                  *
+*              DEFAULT,     // Resolucion de video de 800x600x16.               *
+*              AUTODETECT   // Autodeteccion de la resolucion de video.         *
+*            };                                                                 *
+*                                                                               *
+*     06.03) En consonacia con la traducción al inglés reemplaza a la           *
+*            estructura "struct colorRGB" por la siguiente:                     *
+*                                                                               *
+*            struct rgbColor                                                    *
+*            {                                                                  *
+*              Uint8 r;     // componente rojo.                                 *
+*              Uint8 g;     // componente verde,                                *
+*              Uint8 b;     // componente azul.                                 *
+*            };                                                                 *
+*                                                                               *
+*     06.04) Incorpora la siguiente estructura para la administración de        *
+*            contactos en la clase "clsContactSprite":                          *
+*                                                                               *
+*            struct tCoord                                                      *
+*            {                                                                  *
+*              int x1,  // coord x inicial del sprite local.                    *
+*              y1,      // coord y inicial del sprite local.                    *
+*              x2,      // coord x final del sprite local.                      *
+*              y2,      // coord y final del sprite local.                      *
+*              x3,      // coord x inicial del sprite externo.                  *
+*              y3,      // coord y inicial del sprite externo.                  *
+*              x4,      // coord x final del sprite externo.                    *
+*              y4,      // coord y final del sprite externo.                    *
+*              w1,      // ancho del sprite local.                              *
+*              w2,      // ancho del sprite externo.                            *
+*              h1,      // alto del sprite local.                               *
+*              h2,     // alto del sprite externo.                              *
+*              xi1, // coord x inicial del area superpuesta en sprite local.    *
+*              yi1, // coord y inicial del area superpuesta en sprite local.    *
+*              xi2, // coord x inicial del area superpuesta en sprite externo.  *
+*              yi2, // coord y inicial del area superpuesta en sprite externo.  *
+*              aw,  // ancho del area superpuesta.                              *
+*              ah,  // alto  del area superpuesta.                              *
+*              ovl; // caso de superposicion (overlap).                         *
+*           };                                                                  *
+*                                                                               *
+*     06.05) Incorpora la siguiente enumeración para los tipos de textbox:      *
+*                                                                               *
+*            enum tBoxStyle{EMPTY,FILL};                                        *
+*                                                                               *
+*                                                                               *
+* 07) Autodetección de la resolucion de video.                                  *
+*                                                                               *
+*                                                                               *
+* 08) Compatibilidad con varios formatos graficos (BMP,PCX,JPG,GIF,etc.).       *
+*                                                                               *
+*                                                                               *
+* 09) Incorpora la clase "clsLog" que permite la generación del archivo         *
+*     "stdout.txt en el entorno Linux.                                          *
+*                                                                               *
+*                                                                               *
+* 10) Incorpora la clase abstracta "clsEngine" que permite derivar clases para  *
+*     el motor del programa.                                                    *
+*                                                                               *
+*                                                                               *
+* 11) Incorpora modificaciones a la clase "clsError" que la hacen más eficiente.*
+*                                                                               *
+*                                                                               *
+* 12) Cambia la estructura de la clase abstracta "clsContactSprite" haciéndola  *
+*     derivada de la clase abstracta "clsMovilSprite", evitando de esta manera  *
+*     la herencia múltiple, y manteniendo así la pureza del paradigma OOP.      *
+*                                                                               *
+*                                                                               *
+* 13) Desaparece la clase "clsMode", la que será reemplazada a partir de la     *
+*     presente versión por clases independientes.                               *
+*                                                                               *
+*     En la versión 4.01, agrega la clase "clsGraphicMode" que permite          *
+*     administrar el modo de video.                                             *
+*                                                                               *
+*     En próximas versiones serán incorporadas las clases "clsAudio",           *
+*     "clsCDROM" y "clsJoystick".                                               *
+*                                                                               *
+*                                                                               *
+* 14) La clase "clsImage" incorpora compatibilidad con más formatos gráficos    *
+*     (BMP,PCX,JPG,GIF,etc.).                                                   *
+*                                                                               *
+*                                                                               *
+* 15) Incorpora la clase "clsRectangle" utilizada para dibujar rectángulos.     *
+*                                                                               *
+*     La clase "clsTextBox" incorpora a la clase "clsRectangle" como            *
+*     herramienta de dibujo.                                                    *
+*                                                                               *
+*                                                                               *
+* 16) Las clases "clsLinuxSystem" y "clsWin32System" han sido reemplazadas por  *
+*     la clase única "clsSystem".                                               *
+*                                                                               *
+*                                                                               *
+* 17) La clase "clsText" incorpora nuevos métodos.                              *
+*                                                                               *
+*                                                                               *
+* 18) Ha sido modificada la estructura de la clase "clsTextBox".                *
+*                                                                               *
+*                                                                               *
+* 19) Se corrigio el metodo "setTransparente" en la clase "clsBaseSprite"       *
+*                                                                               *
+*                                                                               *
+*********************************************************************************
+
